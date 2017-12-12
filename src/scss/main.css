@@ -1,0 +1,47 @@
+h1 {
+  color: red; }
+
+main, header, footer {
+  display: block;
+  width: 100%;
+  padding: 1rem 0; }
+
+header {
+  text-align: center;
+  border-bottom: 2px solid red; }
+
+footer {
+  text-align: center;
+  border-top: 2px solid red; }
+
+.container {
+  width: 100%; }
+  .container.list {
+    display: inline-block;
+    width: 30%; }
+    .container.list ul {
+      list-style: none;
+      width: 100%;
+      display: block;
+      height: 30em;
+      overflow: auto;
+      overflow-x: hidden;
+      overflow-y: scroll; }
+    .container.list li {
+      display: block; }
+  .container.details {
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    padding-left: 5em; }
+    .container.details figure {
+      margin: 0;
+      padding: 0;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      -webkit-margin-start: 0;
+      -webkit-margin-end: 0; }
+  .container:after {
+    clear: both; }
+
+/*# sourceMappingURL=main.css.map */
